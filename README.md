@@ -12,7 +12,7 @@ All builds are independent and there is a restricted space dedicated to read and
 - [x] Run multiples builds on a single Mac
 - [x] Run builds on a cloud of Mac
 - [x] Clean all files created after each build
-- [] Support Cocoapod repository (in progress)
+- [ ] Support Cocoapod repository (in progress)
 
 This plugin has been tested against macOS 10.14 Mojave and macOS 10.15 Catalina , although theoretically it should work with older version as long as it supports sysadminctl command.
 
