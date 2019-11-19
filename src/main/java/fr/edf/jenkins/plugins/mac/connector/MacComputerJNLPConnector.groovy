@@ -85,7 +85,7 @@ class MacComputerJNLPConnector extends MacComputerConnector {
                 launched = false
                 String message = String.format("Error while connecting computer %s due to exception %s", computer.name, e.message)
                 listener.error(message)
-                throw new InterruptedException(message, e)
+                throw new InterruptedException(message)
             }
             long currentTimestamp = Instant.now().toEpochMilli()
             while(!macComputer.isOnline()) {
